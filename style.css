@@ -10,11 +10,13 @@
   .head_div2{
   
    float: none;
-   background-color: white;
-   padding: 10px;
+   padding: 20px;
    border-radius: 70px;
    box-shadow: 5px 5px 5px hotpink;
-   color: black;
+   color: white;
+   animation-name: OMG;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
   
   }
   
@@ -50,7 +52,7 @@
    border: 5px double orange;
    border-radius: 70px;
    box-shadow: 5px 5px 5px hotpink;
-   margin-top: 125px;
+   margin-top: 145px;
   
   }
 
@@ -65,5 +67,12 @@
  
     from{background-color: black;}
     to{background-color: hotpink;}
+
+}
+
+ @keyframes OMG{
+ 
+  from{background-color: blue;}
+  to{background-color: black;}
 
 }
